@@ -254,3 +254,29 @@ footer {
 .dark-theme .answer {
     color: #ccc;
 }
+/* ====== FAQ Toggle ====== */
+.answer {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .answer.visible {
+    display: block;
+  }
+  
+  .faq-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+  }
+  
+  .faq-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .question {
+    font-weight: bold;
+  }
+  
