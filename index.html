@@ -1,45 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Lab 3</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Lab 3</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <button id="themeToggle">Switch Theme</button>        
-    </header>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button id="themeToggle">Switch Theme</button>
+  </header>
 
-    <main>
-        <section class="hero">
-            <h1>Welcome to the Madrac media</h1>
-            <p>Your go to digital media solution</p>
-        </section>
+  <main>
+    <section class="hero">
+      <h1>Welcome to Madrac Media</h1>
+      <p>Your go-to digital media solution</p>
+    </section>
 
-        <section class="flex-container">
-            <article>
-                <h2>Introduction</h2>
-                <p>Learn more about us and our company</p>
-            </article>
-            <aside>
-                <h2>Latest developments</h2>
-                <p>Stay uptodate with all the happenings of the company</p>
-            </aside>
-        </section>
-    </main>
-    <script src="script.js" defer></script>
-    <footer>
-        
-        <p>&copy; Madrac media @2025</p>
-    </footer>
-    
+    <section class="team-section">
+      <h2>Team Members</h2>
+      <ul id="userList"></ul>
+      <button id="loadUsersBtn">Load Users</button>
+    </section>
+
+    <section class="flex-container">
+      <article>
+        <h2>Introduction</h2>
+        <p>Learn more about us and our company</p>
+      </article>
+      <aside>
+        <h2>Latest Developments</h2>
+        <p>Stay up to date with all the happenings of the company</p>
+      </aside>
+    </section>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <article class="faq-item">
+        <h3 class="question" tabindex="0">What is this website about?</h3>
+        <p class="answer">This is a demo project for learning web development.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3 class="question" tabindex="0">Who created this?</h3>
+        <p class="answer">It was made by a web development student.</p>
+      </article>
+
+      <article class="faq-item">
+        <h3 class="question" tabindex="0">Can I use this template?</h3>
+        <p class="answer">Yes! Feel free to modify it for learning purposes.</p>
+      </article>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+
+  <footer>
+    <p>&copy; Madrac Media @2025</p>
+  </footer>
 </body>
 </html>
