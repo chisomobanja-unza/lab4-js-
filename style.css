@@ -148,3 +148,51 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* ====== Dark Theme Overrides ====== */
+.dark-theme {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Apply to navigation */
+.dark-theme nav ul {
+    background: #1e1e1e;
+}
+
+.dark-theme nav ul li a {
+    color: #f0f0f0;
+}
+
+/* Hero section */
+.dark-theme .hero {
+    background: #333;
+    color: #f0f0f0;
+}
+
+/* Articles, sidebars, forms, cards */
+.dark-theme article,
+.dark-theme aside,
+.dark-theme .service-card,
+.dark-theme form {
+    background: #1e1e1e;
+    color: #f0f0f0;
+    border-color: #333;
+}
+
+/* Inputs and textareas */
+.dark-theme input,
+.dark-theme textarea {
+    background: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #555;
+}
+
+/* Buttons */
+.dark-theme button {
+    background: #555;
+    color: white;
+}
+
+.dark-theme button:hover {
+    background: #777;
+}
