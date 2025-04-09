@@ -279,4 +279,34 @@ footer {
   .question {
     font-weight: bold;
   }
-  
+
+/* Back to Top Button */
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+#backToTopBtn:hover {
+  background-color: #0056b3;
+}
+
+/* Dark theme support for Back to Top Button */
+.dark-theme #backToTopBtn {
+  background-color: #555;
+}
+
+.dark-theme #backToTopBtn:hover {
+  background-color: #777;
+}
